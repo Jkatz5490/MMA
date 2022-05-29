@@ -32,5 +32,6 @@ public class OrganizationController {
 	public Organization findByOrganizationId(@PathVariable("id") Long organizationId) {
 		return organizationService.findByOrganizationId(organizationId);
 	}
+	// added other comment
 
 }
