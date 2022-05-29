@@ -10,5 +10,6 @@ public interface FighterRepository extends JpaRepository<Fighter, Long>{
 
 	// method naming is sensitive for some reason
 	Fighter findByFighterId (Long fighterId);
+	// test
 
 }
